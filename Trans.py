@@ -2,8 +2,8 @@
 # -*-coding:UTF-8-*-
 
 def main(name1, name2):
-    f1 = open('C:/Users/jsyl/Desktop/EntityTrans/file1.txt', 'r')
-    f2 = open('C:/Users/jsyl/Desktop/EntityTrans/file2.txt', 'r')
+    f1 = open('C:/Users/jsyl/Desktop/项目/EntityTrans/file1.txt', 'r')
+    f2 = open('C:/Users/jsyl/Desktop/项目/EntityTrans/file2.txt', 'r')
     f1List = []
     f2List = []
     resultList = []
@@ -47,4 +47,4 @@ if __name__ == "__main__":
     需set的字段放入file中，get的字段放入file2中
     两个实体中字段顺序和数量一致才能使用
     """
-    main("bean", "entity")
+    main("view", "bean")
